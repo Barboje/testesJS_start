@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&display=swap');
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#f4f5c9), to(#d9d8f0));
+}
+
+section {
+  width: 100%;
+  font-size: 25px;
+  font-family: 'Gruppo', cursive;
+}
+
+.centro {
+  padding: 20px;
+  text-align: center;
+  border-bottom: inset;
+}
+
+h1 {
+  font-family: 'Gayathri', sans-serif;
+  font-size: 30px;
+}
+
+input, option {
+  margin: 10px;
+  padding: 6px;
+  border: #f5c9e8 solid 1px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-family: 'Gruppo', cursive;
+  text-align: center;
+}
+
+.resultado, .signo {
+  font-family: 'Gayathri', sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  color: cadetblue;
+}
+
+button, select {
+  text-transform: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+select {
+  padding-top: 10px !important;
+  padding-left: 55px !important;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'Gruppo', cursive;
+}
+
+#acenda {
+  background-color: white;
+}

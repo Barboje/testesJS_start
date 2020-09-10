@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+  <title>Exercícios JS</title>
+</head>
+
+<body>
+  <!-- Função para soma -->
+  <section>
+    <div class="centro">
+      <h1>Some os números</h1>
+      Insira um número
+      <input id="num1" type="text"><br>
+      Insira outro número
+      <input id="num2" type="text"><br>
+      <button onclick="clicarSomar()">SOMAR</button>
+      <p class="resultado"></p>
+    </div>
+  </section>
+
+  <!-- Função para alert - Nome completo -->
+  <section>
+    <section id="blocoNomeCompleto">
+      <div class="centro">
+        <h1>Seu nome Completo</h1>
+        Insira seu nome
+        <input id="nome" type="text"><br>
+        Insira seu sobrenome
+        <input id="sobrenome" type="text"><br>
+        <button onclick="clicarNomeCompleto()">É só clicar</button>
+      </div>
+    </section>
+
+    <!-- Função para retornar signo-->
+    <section id="blocoSigno">
+      <div class="centro">
+        <h1>Saiba seu signo</h1>
+        <label for="inputDay">Insira o dia do seu nascimento</label>
+        <select id="inputDay" class="form-control">
+        </select>
+        <br>
+        <label for="inputMonth">Insira o mês de nascimento</label>
+        <select id="inputMonth" class="form-control">
+          <option value="1">Janeiro</option>
+          <option value="2">Fevereiro</option>
+          <option value="3">Março</option>
+          <option value="4">Abril</option>
+          <option value="5">Maio</option>
+          <option value="6">Junho</option>
+          <option value="7">Julho</option>
+          <option value="8">Agosto</option>
+          <option value="9">Setembro</option>
+          <option value="10">Outubro</option>
+          <option value="11">Novembro</option>
+          <option value="12">Dezembro</option>
+        </select><br>
+        <button onclick="seuSigno()">É só clicar</button>
+        <p class="signo"></p>
+      </div>
+    </section>
+
+    <section>
+
+      <section id="acenda">
+        <div class="centro">
+          <h1>Acenda a lâmpada</h1>
+          <p>Cuidado, não clique sobre ela #frágil.</p>
+          <img src="./img/lampada-apagada.jpg" id="luz" onmousemove="acendeLampada()" onmouseout="apagaLampada()"
+            onclick="quebraLampada()">
+
+        </div>
+      </section>
+
+      <script src="./js/script.js"></script>
+      <script>
+        populaDias();
+      </script>
+</body>
+
+</html>
